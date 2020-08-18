@@ -1,0 +1,27 @@
+{
+	"name": "pet-project",
+	"private": true,
+	"version": "1.0.0",
+	"description": "Pet project",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pulkitbhardwaj/pet-project.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/pulkitbhardwaj/pet-project/issues"
+	},
+	"homepage": "https://github.com/pulkitbhardwaj/pet-project#readme",
+	"devDependencies": {
+		"lerna": "^3.22.1"
+	},
+	"workspaces": [
+		"packages/*"
+	]
+}
