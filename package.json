@@ -5,7 +5,7 @@
 	"description": "Pet project",
 	"main": "index.js",
 	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"bootstrap": "lerna bootstrap"
 	},
 	"repository": {
 		"type": "git",
@@ -21,7 +21,9 @@
 	"devDependencies": {
 		"lerna": "^3.22.1"
 	},
-	"workspaces": [
-		"packages/*"
-	]
+	"workspaces": {
+		"packages": [
+			"packages/*"
+		]
+	}
 }
